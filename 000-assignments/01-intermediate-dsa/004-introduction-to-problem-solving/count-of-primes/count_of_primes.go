@@ -9,7 +9,7 @@ import isprime "is_prime"
 // if A=1, then the count of prime numbers from 2 to 1 is 0
 // hence, the function returns 0
 //
-// Time Complexity: O(n)
+// Time Complexity: O(n*sqrt(n))
 func CountOfPrime(A int) int {
 
 	var count int
